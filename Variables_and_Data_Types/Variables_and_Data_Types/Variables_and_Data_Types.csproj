@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4EE8DBB-70D2-4659-9745-9F0DF83E0959}</ProjectGuid>
+    <ProjectGuid>{205451AC-815C-444E-A87A-AA5816E36CFF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Abstract_Methods</RootNamespace>
-    <AssemblyName>Abstract_Methods</AssemblyName>
+    <RootNamespace>Variables_and_Data_Types</RootNamespace>
+    <AssemblyName>Variables_and_Data_Types</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,9 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

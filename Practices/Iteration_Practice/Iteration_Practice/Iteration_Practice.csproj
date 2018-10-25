@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4EE8DBB-70D2-4659-9745-9F0DF83E0959}</ProjectGuid>
+    <ProjectGuid>{6D8F5C02-A33A-4854-9054-806243B53470}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Abstract_Methods</RootNamespace>
-    <AssemblyName>Abstract_Methods</AssemblyName>
+    <RootNamespace>Iteration_Practice</RootNamespace>
+    <AssemblyName>Iteration_Practice</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,9 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
